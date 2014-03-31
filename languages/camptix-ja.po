@@ -3,16 +3,16 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: CampTix Event Ticketing 1.3.1\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/tag/camptix\n"
-"POT-Creation-Date: 2013-07-19 15:43:30+00:00\n"
-"PO-Revision-Date: 2013-07-29 17:50-0800\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/camptix\n"
+"POT-Creation-Date: 2014-03-26 00:51:31+00:00\n"
+"PO-Revision-Date: 2014-03-31 14:47+0900\n"
 "Last-Translator: Naoko Takano <info@nao-net.com>\n"
 "Language-Team: JAPANESE <wpja.team@gmail.com>\n"
-"Language: Japanese\n"
+"Language: ja\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.4\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -54,8 +54,8 @@ msgstr ""
 msgid "PayPal Developer"
 msgstr "PayPal デベロッパー"
 
-#: addons/payment-paypal.php:88 camptix.php:433 camptix.php:2116
-#: camptix.php:3712
+#: addons/payment-paypal.php:88 camptix.php:433 camptix.php:2134
+#: camptix.php:3733
 msgid "None"
 msgstr "なし"
 
@@ -80,67 +80,67 @@ msgstr "PayPal エラー: %s (%d)"
 msgid "Request did not complete successfully"
 msgstr "リクエストの処理に失敗しました"
 
-#: addons/shortcodes.php:176
+#: addons/shortcodes.php:182
 msgid "Generated attendees list in %s seconds"
 msgstr "参加者一覧を%s秒で生成しました"
 
-#: addons/shortcodes.php:208
+#: addons/shortcodes.php:223
 msgid "Please fill in all fields."
 msgstr "すべての欄に記入してください。"
 
-#: addons/shortcodes.php:211
+#: addons/shortcodes.php:226
 msgid "The e-mail address you have entered does not seem to be valid."
 msgstr "入力されたメールアドレスが間違っているようです。"
 
-#: addons/shortcodes.php:251
+#: addons/shortcodes.php:266
 msgid "The information you have entered is incorrect. Please try again."
 msgstr "入力された情報が間違っているようです。もう一度お試しください。"
 
-#: addons/shortcodes.php:269
+#: addons/shortcodes.php:284
 msgid "An error has occured."
 msgstr "エラーが発生しました。"
 
-#: addons/shortcodes.php:308
+#: addons/shortcodes.php:323
 msgid ""
 "Looks like you logged in from a different computer. Please log in again."
 msgstr ""
 "別のパソコンからログインしているようです。もう一度ログインしてください。"
 
-#: addons/shortcodes.php:330 addons/shortcodes.php:336
+#: addons/shortcodes.php:345 addons/shortcodes.php:351
 msgid "Sorry, but your ticket does not allow you to view this content."
 msgstr ""
 "購入されたチケットは、このコンテンツを表示するためにはご利用いただけません。"
 
-#: addons/shortcodes.php:342
+#: addons/shortcodes.php:357
 msgid "Success! Enjoy your content!"
 msgstr "成功しました。コンテンツをお楽しみください。"
 
-#: addons/shortcodes.php:347
+#: addons/shortcodes.php:362
 msgid ""
 "The content on this page is private. Please log in using the form below."
 msgstr ""
 "このページのコンテンツは非公開です。以下のフォームからログインしてください。"
 
-#: addons/shortcodes.php:372
+#: addons/shortcodes.php:387
 msgid "Have a ticket? Sign in"
 msgstr "チケットをお持ちですか ? ログインしてください。"
 
-#: addons/shortcodes.php:375 camptix.php:2512 camptix.php:3771
-#: camptix.php:4707 camptix.php:5059
+#: addons/shortcodes.php:390 camptix.php:2533 camptix.php:3792
+#: camptix.php:4731 camptix.php:5083
 msgid "First Name"
 msgstr "名前"
 
-#: addons/shortcodes.php:379 camptix.php:2513 camptix.php:3772
-#: camptix.php:4712 camptix.php:5063
+#: addons/shortcodes.php:394 camptix.php:2534 camptix.php:3793
+#: camptix.php:4736 camptix.php:5087
 msgid "Last Name"
 msgstr "苗字"
 
-#: addons/shortcodes.php:383 camptix.php:574 camptix.php:985 camptix.php:3773
-#: camptix.php:4717 camptix.php:5067 camptix.php:5237
+#: addons/shortcodes.php:398 camptix.php:576 camptix.php:987 camptix.php:3794
+#: camptix.php:4741 camptix.php:5091 camptix.php:5261
 msgid "E-mail"
 msgstr "メールアドレス"
 
-#: addons/shortcodes.php:388
+#: addons/shortcodes.php:403
 msgid "Login &rarr;"
 msgstr "ログイン &rarr;"
 
@@ -152,315 +152,315 @@ msgstr "10分に1回"
 msgid "Please enter the e-mail addresses in the forms above."
 msgstr "上のフォームにメールアドレスを入力してください。"
 
-#: camptix.php:514 camptix.php:4461 camptix.php:4642
+#: camptix.php:516 camptix.php:4485 camptix.php:4666
 msgid "Price"
 msgstr "価格"
 
-#: camptix.php:515 camptix.php:636 camptix.php:3375 camptix.php:3404
-#: camptix.php:4465 camptix.php:4641
+#: camptix.php:517 camptix.php:638 camptix.php:3396 camptix.php:3425
+#: camptix.php:4489 camptix.php:4665
 msgid "Quantity"
 msgstr "数"
 
-#: camptix.php:516
+#: camptix.php:518
 msgid "Purchased"
 msgstr "発売数"
 
-#: camptix.php:517 camptix.php:638 camptix.php:701 camptix.php:2403
-#: camptix.php:2412 camptix.php:4463
+#: camptix.php:519 camptix.php:640 camptix.php:703 camptix.php:2424
+#: camptix.php:2433 camptix.php:4487
 msgid "Remaining"
 msgstr "残数"
 
-#: camptix.php:518 camptix.php:640 camptix.php:3119 camptix.php:3126
+#: camptix.php:520 camptix.php:642 camptix.php:3140 camptix.php:3147
 msgid "Availability"
 msgstr "発売期間"
 
-#: camptix.php:551
+#: camptix.php:553
 msgid "(%d reserved)"
 msgstr "(%d枚予約中)"
 
-#: camptix.php:560 camptix.php:686
+#: camptix.php:562 camptix.php:688
 msgid "Auto"
 msgstr "自動"
 
 #. translators: 1: "from" date, 2: "to" date
-#: camptix.php:563 camptix.php:689
+#: camptix.php:565 camptix.php:691
 msgid "%1$s &mdash; %2$s"
 msgstr "%1$s 〜 %2$s"
 
-#: camptix.php:575 camptix.php:845 camptix.php:3774
+#: camptix.php:577 camptix.php:847 camptix.php:3795
 msgid "Ticket"
 msgstr "チケット"
 
-#: camptix.php:576 camptix.php:949 camptix.php:2518 camptix.php:3801
+#: camptix.php:578 camptix.php:951 camptix.php:2539 camptix.php:3822
 msgid "Coupon"
 msgstr "クーポン"
 
-#: camptix.php:579 camptix.php:3813
+#: camptix.php:581 camptix.php:3834
 msgid "Reservation"
 msgstr "予約"
 
-#: camptix.php:581
+#: camptix.php:583
 msgid "Ticket Price"
 msgstr "チケット価格"
 
-#: camptix.php:582 camptix.php:3804
+#: camptix.php:584 camptix.php:3825
 msgid "Order Total"
 msgstr "注文合計"
 
-#: camptix.php:637 camptix.php:3376
+#: camptix.php:639 camptix.php:3397
 msgid "Used"
 msgstr "使用済"
 
-#: camptix.php:639
+#: camptix.php:641
 msgid "Discount"
 msgstr "割引"
 
-#: camptix.php:641 camptix.php:844 camptix.php:850 camptix.php:855
+#: camptix.php:643 camptix.php:846 camptix.php:852 camptix.php:857
 msgid "Tickets"
 msgstr "チケット"
 
-#: camptix.php:700
+#: camptix.php:702
 msgid "Sent"
 msgstr "送信済"
 
-#: camptix.php:702
+#: camptix.php:704
 msgid "Total"
 msgstr "合計"
 
-#: camptix.php:846 camptix.php:849
+#: camptix.php:848 camptix.php:851
 msgid "New Ticket"
 msgstr "新規チケット"
 
-#: camptix.php:847
+#: camptix.php:849
 msgid "Add New Ticket"
 msgstr "新規チケットを追加"
 
-#: camptix.php:848
+#: camptix.php:850
 msgid "Edit Ticket"
 msgstr "チケット編集"
 
-#: camptix.php:851
+#: camptix.php:853
 msgid "View Ticket"
 msgstr "チケットを表示"
 
-#: camptix.php:852
+#: camptix.php:854
 msgid "Search Tickets"
 msgstr "チケット検索"
 
-#: camptix.php:853
+#: camptix.php:855
 msgid "No tickets found"
 msgstr "チケットが見つかりませんでした"
 
-#: camptix.php:854
+#: camptix.php:856
 msgid "No tickets found in trash"
 msgstr "ゴミ箱内にチケットが見つかりませんでした"
 
-#: camptix.php:879 camptix.php:885 camptix.php:890 camptix.php:3120
-#: camptix.php:3817
+#: camptix.php:881 camptix.php:887 camptix.php:892 camptix.php:3141
+#: camptix.php:3838
 msgid "Questions"
 msgstr "質問"
 
-#: camptix.php:880 camptix.php:3557
+#: camptix.php:882 camptix.php:3578
 msgid "Question"
 msgstr "質問"
 
-#: camptix.php:881 camptix.php:884
+#: camptix.php:883 camptix.php:886
 msgid "New Question"
 msgstr "新規質問"
 
-#: camptix.php:882
+#: camptix.php:884
 msgid "Add New Question"
 msgstr "新規質問を追加"
 
-#: camptix.php:883
+#: camptix.php:885
 msgid "Edit Question"
 msgstr "質問を編集"
 
-#: camptix.php:886
+#: camptix.php:888
 msgid "View Question"
 msgstr "質問を表示"
 
-#: camptix.php:887
+#: camptix.php:889
 msgid "Search Questions"
 msgstr "質問を検索"
 
-#: camptix.php:888
+#: camptix.php:890
 msgid "No questions found"
 msgstr "質問が見つかりませんでした"
 
-#: camptix.php:889
+#: camptix.php:891
 msgid "No questions found in trash"
 msgstr "ゴミ箱内に質問が見つかりませんでした"
 
-#: camptix.php:908 camptix.php:914 camptix.php:919
+#: camptix.php:910 camptix.php:916 camptix.php:921
 msgid "Attendees"
 msgstr "参加者"
 
-#: camptix.php:909
+#: camptix.php:911
 msgid "Attendee"
 msgstr "参加者"
 
-#: camptix.php:910
+#: camptix.php:912
 msgid "New Attendee"
 msgstr "新規参加者"
 
-#: camptix.php:911
+#: camptix.php:913
 msgid "Add New Attendee"
 msgstr "新規参加者を追加"
 
-#: camptix.php:912
+#: camptix.php:914
 msgid "Edit Attendee"
 msgstr "参加者を編集"
 
-#: camptix.php:913
+#: camptix.php:915
 msgid "Add Attendee"
 msgstr "参加者を追加"
 
-#: camptix.php:915
+#: camptix.php:917
 msgid "View Attendee"
 msgstr "参加者を表示"
 
-#: camptix.php:916
+#: camptix.php:918
 msgid "Search Attendees"
 msgstr "参加者を検索"
 
-#: camptix.php:917
+#: camptix.php:919
 msgid "No attendees found"
 msgstr "参加者が見つかりませんでした"
 
-#: camptix.php:918
+#: camptix.php:920
 msgid "No attendees found in trash"
 msgstr "ゴミ箱内に参加者が見つかりませんでした"
 
-#: camptix.php:948 camptix.php:954 camptix.php:959
+#: camptix.php:950 camptix.php:956 camptix.php:961
 msgid "Coupons"
 msgstr "クーポン"
 
-#: camptix.php:950 camptix.php:953
+#: camptix.php:952 camptix.php:955
 msgid "New Coupon"
 msgstr "新規クーポン"
 
-#: camptix.php:951
+#: camptix.php:953
 msgid "Add New Coupon"
 msgstr "新規クーポンを追加"
 
-#: camptix.php:952
+#: camptix.php:954
 msgid "Edit Coupon"
 msgstr "クーポンを編集"
 
-#: camptix.php:955
+#: camptix.php:957
 msgid "View Coupon"
 msgstr "クーポンを表示"
 
-#: camptix.php:956
+#: camptix.php:958
 msgid "Search Coupons"
 msgstr "クーポンを検索"
 
-#: camptix.php:957
+#: camptix.php:959
 msgid "No coupons found"
 msgstr "クーポンが見つかりません。"
 
-#: camptix.php:958
+#: camptix.php:960
 msgid "No coupons found in trash"
 msgstr "ゴミ箱内にクーポンが見つかりませんでした"
 
-#: camptix.php:984 camptix.php:990
+#: camptix.php:986 camptix.php:992
 msgid "E-mails"
 msgstr "E メール"
 
-#: camptix.php:986 camptix.php:989
+#: camptix.php:988 camptix.php:991
 msgid "New E-mail"
 msgstr "新規メール"
 
-#: camptix.php:987
+#: camptix.php:989
 msgid "Add New E-mail"
 msgstr "新規メールを追加"
 
-#: camptix.php:988
+#: camptix.php:990
 msgid "Edit E-mail"
 msgstr "メールを編集"
 
-#: camptix.php:991
+#: camptix.php:993
 msgid "View E-mail"
 msgstr "メールを表示"
 
-#: camptix.php:992
+#: camptix.php:994
 msgid "Search E-mails"
 msgstr "メールを検索"
 
-#: camptix.php:993
+#: camptix.php:995
 msgid "No e-mails found"
 msgstr "メールが見つかりませんでした"
 
-#: camptix.php:994
+#: camptix.php:996
 msgid "No e-mails found in trash"
 msgstr "ゴミ箱内にメールが見つかりませんでした"
 
-#: camptix.php:995
+#: camptix.php:997
 msgid "E-mails (debug)"
 msgstr "メール (デバッグ)"
 
-#: camptix.php:1008
+#: camptix.php:1010
 msgctxt "post"
 msgid "Cancelled"
 msgstr "キャンセル"
 
-#: camptix.php:1009
+#: camptix.php:1011
 msgctxt "camptix"
 msgid "Cancelled <span class=\"count\">(%s)</span>"
 msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
 msgstr[0] "キャンセル <span class=\"count\">(%s)</span>"
 
-#: camptix.php:1017
+#: camptix.php:1019
 msgctxt "post"
 msgid "Failed"
 msgstr "失敗"
 
-#: camptix.php:1018
+#: camptix.php:1020
 msgctxt "camptix"
 msgid "Failed <span class=\"count\">(%s)</span>"
 msgid_plural "Failed <span class=\"count\">(%s)</span>"
 msgstr[0] "失敗 <span class=\"count\">(%s)</span>"
 
-#: camptix.php:1026
+#: camptix.php:1028
 msgctxt "post"
 msgid "Timeout"
 msgstr "タイムアウト"
 
-#: camptix.php:1027
+#: camptix.php:1029
 msgctxt "camptix"
 msgid "Timeout <span class=\"count\">(%s)</span>"
 msgid_plural "Timeout <span class=\"count\">(%s)</span>"
 msgstr[0] "タイムアウト <span class=\"count\">(%s)</span>"
 
-#: camptix.php:1035
+#: camptix.php:1037
 msgctxt "post"
 msgid "Refunded"
 msgstr "返金済"
 
-#: camptix.php:1036
+#: camptix.php:1038
 msgctxt "camptix"
 msgid "Refunded <span class=\"count\">(%s)</span>"
 msgid_plural "Refunded <span class=\"count\">(%s)</span>"
 msgstr[0] "返金済 <span class=\"count\">(%s)</span>"
 
-#: camptix.php:1050
+#: camptix.php:1052
 msgid "Timeout"
 msgstr "タイムアウト"
 
-#: camptix.php:1053
+#: camptix.php:1055
 msgid "Failed"
 msgstr "失敗"
 
-#: camptix.php:1056
+#: camptix.php:1058
 msgid "Cancelled"
 msgstr "キャンセル"
 
-#: camptix.php:1059
+#: camptix.php:1061
 msgid "Refunded"
 msgstr "返金済"
 
-#: camptix.php:1075
+#: camptix.php:1077
 msgid ""
 "Hi there!\n"
 "\n"
@@ -488,7 +488,7 @@ msgstr ""
 "\n"
 "不明な点がありましたら、お問合せください。"
 
-#: camptix.php:1076
+#: camptix.php:1078
 msgid ""
 "Hi there!\n"
 "\n"
@@ -509,7 +509,7 @@ msgstr ""
 "\n"
 "不明な点がありましたら、お問合せください。"
 
-#: camptix.php:1077
+#: camptix.php:1079
 msgid ""
 "Hi there!\n"
 "\n"
@@ -537,7 +537,7 @@ msgstr ""
 "\n"
 "不明な点がありましたら、お問合せください。"
 
-#: camptix.php:1078
+#: camptix.php:1080
 msgid ""
 "Hey there!\n"
 "\n"
@@ -558,7 +558,7 @@ msgstr ""
 "\n"
 "不明な点がありましたら、お問合せください。"
 
-#: camptix.php:1079
+#: camptix.php:1081
 msgid ""
 "Hey there!\n"
 "\n"
@@ -581,7 +581,7 @@ msgstr ""
 "\n"
 "不明な点がありましたら、お問合せください。"
 
-#: camptix.php:1080
+#: camptix.php:1082
 msgid ""
 "Hey there!\n"
 "\n"
@@ -602,7 +602,7 @@ msgstr ""
 "\n"
 "不明な点がありましたら、お問合せください。"
 
-#: camptix.php:1081
+#: camptix.php:1083
 msgid ""
 "Hey there!\n"
 "\n"
@@ -623,23 +623,23 @@ msgstr ""
 "\n"
 "不明な点がありましたら、お問合せください。"
 
-#: camptix.php:1402
+#: camptix.php:1404
 msgid "General Configuration"
 msgstr "一般設定"
 
-#: camptix.php:1403
+#: camptix.php:1405
 msgid "Event Name"
 msgstr "イベント名"
 
-#: camptix.php:1404
+#: camptix.php:1406
 msgid "Currency"
 msgstr "通貨"
 
-#: camptix.php:1406
+#: camptix.php:1408
 msgid "Enable Refunds"
 msgstr "返金機能を有効化"
 
-#: camptix.php:1407
+#: camptix.php:1409
 msgid ""
 "This will allows your customers to refund their tickets purchase by filling "
 "out a simple refund form."
@@ -647,51 +647,51 @@ msgstr ""
 "チケット購入者がシンプルなフォームに入力することで返金をリクエストできるよう"
 "にします。"
 
-#: camptix.php:1416
+#: camptix.php:1418
 msgid "Enabled"
 msgstr "有効"
 
-#: camptix.php:1425 camptix.php:1888
+#: camptix.php:1427 camptix.php:1903
 msgid "E-mail Templates"
 msgstr "メールテンプレート"
 
-#: camptix.php:1426
+#: camptix.php:1428
 msgid "Single purchase"
 msgstr "単品購入"
 
-#: camptix.php:1427
+#: camptix.php:1429
 msgid "Multiple purchase"
 msgstr "複数購入"
 
-#: camptix.php:1428
+#: camptix.php:1430
 msgid "Multiple purchase (receipt)"
 msgstr "複数購入 (レシート)"
 
-#: camptix.php:1429
+#: camptix.php:1431
 msgid "Pending Payment Succeeded"
 msgstr "保留中の決済処理完了"
 
-#: camptix.php:1430
+#: camptix.php:1432
 msgid "Pending Payment Failed"
 msgstr "保留中の決済処理失敗"
 
-#: camptix.php:1431
+#: camptix.php:1433
 msgid "Single Refund"
 msgstr "単品返金"
 
-#: camptix.php:1432
+#: camptix.php:1434
 msgid "Multiple Refund"
 msgstr "複数の返金"
 
-#: camptix.php:1442
+#: camptix.php:1444
 msgid "Beta Features"
 msgstr "ベータ機能"
 
-#: camptix.php:1444
+#: camptix.php:1446
 msgid "Enable Reservations"
 msgstr "予約を有効化"
 
-#: camptix.php:1445
+#: camptix.php:1447
 msgid ""
 "Reservations is a way to make sure that a certain group of people, can "
 "always purchase their tickets, even if you sell out fast."
@@ -699,24 +699,24 @@ msgstr ""
 "予約機能を使えば、一般チケットが売り切れた場合でも特定のグループまたは個人は"
 "常にチケットを購入できます。"
 
-#: camptix.php:1449
+#: camptix.php:1451
 msgid "Enable Refund All"
 msgstr "一括返金機能を有効化"
 
-#: camptix.php:1450
+#: camptix.php:1452
 msgid "Allows to refund all purchased tickets by an admin via the Tools menu."
 msgstr ""
 "管理者が「ツール」メニューから購入チケットの一括返金をできるようにします。"
 
-#: camptix.php:1454
+#: camptix.php:1456
 msgid "Archived Event"
 msgstr "アーカイブ済イベント"
 
-#: camptix.php:1455
+#: camptix.php:1457
 msgid "Archived events are read-only."
 msgstr "アーカイブ済イベントは読み取り専用です。"
 
-#: camptix.php:1463
+#: camptix.php:1467
 msgid ""
 "Beta features are things that are being worked on in CampTix, but are not "
 "quite finished yet. You can try them out, but we do not recommend doing that "
@@ -727,7 +727,7 @@ msgstr ""
 "実際のイベントの本番サイトでのご利用はおすすめしません。ベータ機能に関する"
 "フィードバックがありましたら、ぜひお知らせください。"
 
-#: camptix.php:1467
+#: camptix.php:1471
 msgid ""
 "Customize your confirmation e-mail templates. You can use the following "
 "shortcodes inside the message: [event_name], [ticket_url], and [receipt]."
@@ -735,223 +735,223 @@ msgstr ""
 "確認メールのテンプレートをカスタマイズできます。メッセージ内で使えるショート"
 "コード: [event_name] [ticket_url] [receipt]"
 
-#: camptix.php:1471
+#: camptix.php:1475
 msgid "General configuration."
 msgstr "基本的な設定。"
 
-#: camptix.php:1493
+#: camptix.php:1497
 msgid "Reset Default"
 msgstr "デフォルトリセット"
 
-#: camptix.php:1602 camptix.php:1616 camptix.php:3471
-#: inc/class-camptix-payment-method.php:203
+#: camptix.php:1606 camptix.php:1620 camptix.php:3492
+#: inc/class-camptix-payment-method.php:212
 msgid "Yes"
 msgstr "はい"
 
-#: camptix.php:1603 camptix.php:1617 inc/class-camptix-payment-method.php:204
+#: camptix.php:1607 camptix.php:1621 inc/class-camptix-payment-method.php:213
 msgid "No"
 msgstr "いいえ"
 
-#: camptix.php:1621
+#: camptix.php:1625
 msgid "Allow refunds until:"
 msgstr "返金を許可する期限:"
 
-#: camptix.php:1644
+#: camptix.php:1648
 msgid ""
 "Make sure you select a currency that is supported by all the payment methods "
 "you plan to use."
 msgstr ""
 "選択した通貨が利用する予定の決済方法のすべてに対応しているかご確認ください。"
 
-#: camptix.php:1657
+#: camptix.php:1661
 msgid "Australian Dollar"
 msgstr "豪州ドル"
 
-#: camptix.php:1661
+#: camptix.php:1665
 msgid "Canadian Dollar"
 msgstr "カナダドル"
 
-#: camptix.php:1665
+#: camptix.php:1669
 msgid "Euro"
 msgstr "ユーロ"
 
-#: camptix.php:1669
+#: camptix.php:1673
 msgid "Pound Sterling"
 msgstr "スターリングポンド"
 
-#: camptix.php:1673
+#: camptix.php:1677
 msgid "Japanese Yen"
 msgstr "日本円"
 
-#: camptix.php:1677 camptix.php:1767
+#: camptix.php:1681 camptix.php:1771
 msgid "U.S. Dollar"
 msgstr "米国ドル"
 
-#: camptix.php:1681
+#: camptix.php:1685
 msgid "N.Z. Dollar"
 msgstr "NZ ドル"
 
-#: camptix.php:1685
+#: camptix.php:1689
 msgid "Swiss Franc"
 msgstr "スイスフラン"
 
-#: camptix.php:1689
+#: camptix.php:1693
 msgid "Hong Kong Dollar"
 msgstr "香港ドル"
 
-#: camptix.php:1693
+#: camptix.php:1697
 msgid "Singapore Dollar"
 msgstr "シンガポールドル"
 
-#: camptix.php:1697
+#: camptix.php:1701
 msgid "Swedish Krona"
 msgstr "スウェーデンクローナ"
 
-#: camptix.php:1701
+#: camptix.php:1705
 msgid "Danish Krone"
 msgstr "デンマーククローネ"
 
-#: camptix.php:1705
+#: camptix.php:1709
 msgid "Polish Zloty"
 msgstr "ポーランドズロティ"
 
-#: camptix.php:1709
+#: camptix.php:1713
 msgid "Norwegian Krone"
 msgstr "ノルウェークローネ"
 
-#: camptix.php:1713
+#: camptix.php:1717
 msgid "Hungarian Forint"
 msgstr "ハンガリーフォリント"
 
-#: camptix.php:1717
+#: camptix.php:1721
 msgid "Czech Koruna"
 msgstr "チェココルナ"
 
-#: camptix.php:1721
+#: camptix.php:1725
 msgid "Israeli New Sheqel"
 msgstr "イスラエル新シェケル"
 
-#: camptix.php:1725
+#: camptix.php:1729
 msgid "Mexican Peso"
 msgstr "メキシコペソ"
 
-#: camptix.php:1729
+#: camptix.php:1733
 msgid "Brazilian Real"
 msgstr "ブラジルレアル"
 
-#: camptix.php:1733
+#: camptix.php:1737
 msgid "Malaysian Ringgit"
 msgstr "マレーシアリンギット"
 
-#: camptix.php:1737
+#: camptix.php:1741
 msgid "Philippine Peso"
 msgstr "フィリピンペソ"
 
-#: camptix.php:1741
+#: camptix.php:1745
 msgid "New Taiwan Dollar"
 msgstr "ニュー台湾ドル"
 
-#: camptix.php:1745
+#: camptix.php:1749
 msgid "Thai Baht"
 msgstr "タイバーツ"
 
-#: camptix.php:1749
+#: camptix.php:1753
 msgid "Turkish Lira"
 msgstr "トルコリラ"
 
-#: camptix.php:1780
+#: camptix.php:1813
 msgid "Tools"
 msgstr "ツール"
 
-#: camptix.php:1781
+#: camptix.php:1814
 msgid "Setup"
 msgstr "設定"
 
-#: camptix.php:1845
+#: camptix.php:1860
 msgid "CampTix Setup"
 msgstr "CampTix 設定"
 
-#: camptix.php:1861
+#: camptix.php:1876
 msgid "Current time on server: %s"
 msgstr "サーバーの現時刻: %s"
 
-#: camptix.php:1886 camptix.php:3769
+#: camptix.php:1901 camptix.php:3790
 msgid "General"
 msgstr "一般"
 
-#: camptix.php:1887
+#: camptix.php:1902
 msgid "Payment"
 msgstr "決済"
 
-#: camptix.php:1892
+#: camptix.php:1907
 msgid "Beta"
 msgstr "ベータ"
 
-#: camptix.php:1908
+#: camptix.php:1924
 msgid "CampTix Tools"
 msgstr "CampTix ツール"
 
-#: camptix.php:1945
+#: camptix.php:1963
 msgid "Summarize"
 msgstr "サマリー"
 
-#: camptix.php:1946 camptix.php:2406 camptix.php:2415
+#: camptix.php:1964 camptix.php:2427 camptix.php:2436
 msgid "Revenue"
 msgstr "収入"
 
-#: camptix.php:1947 camptix.php:2460
+#: camptix.php:1965 camptix.php:2481
 msgid "Export"
 msgstr "エクスポート"
 
-#: camptix.php:1948
+#: camptix.php:1966
 msgid "Notify"
 msgstr "通知"
 
-#: camptix.php:1952
+#: camptix.php:1970
 msgid "Refund"
 msgstr "返金"
 
-#: camptix.php:1975
+#: camptix.php:1993
 msgid "Summarize by"
 msgstr "サマリーの種類"
 
-#: camptix.php:1995
+#: camptix.php:2013
 msgid "Show Summary"
 msgstr "サマリーを表示"
 
-#: camptix.php:1996
+#: camptix.php:2014
 msgid "Export Summary to CSV"
 msgstr "サマリーを CSV 形式でエクスポート"
 
-#: camptix.php:2011 camptix.php:2049
+#: camptix.php:2029 camptix.php:2067
 msgid "Count"
 msgstr "数"
 
-#: camptix.php:2137 camptix.php:2401 camptix.php:2410
+#: camptix.php:2155 camptix.php:2422 camptix.php:2431
 msgid "Ticket type"
 msgstr "チケットの種類"
 
-#: camptix.php:2138
+#: camptix.php:2156
 msgid "Coupon code"
 msgstr "クーポンコード"
 
-#: camptix.php:2139 camptix.php:2515
+#: camptix.php:2157 camptix.php:2536
 msgid "Purchase date"
 msgstr "購入日"
 
-#: camptix.php:2140
+#: camptix.php:2158
 msgid "Purchase time"
 msgstr "購入時間"
 
-#: camptix.php:2141
+#: camptix.php:2159
 msgid "Purchase date and time"
 msgstr "購入日時"
 
-#: camptix.php:2142
+#: camptix.php:2160
 msgid "Purchase day of week"
 msgstr "購入曜日"
 
-#: camptix.php:2284
+#: camptix.php:2305
 msgid ""
 "<strong>Woah!</strong> The revenue total does not match with the "
 "transactions total. The actual total is: <strong>%s</strong>. Something "
@@ -960,135 +960,135 @@ msgstr ""
 "収入と取引額の合計が一致しません。実際の合計は <strong>%s</strong> です。何ら"
 "かのエラーが発生しているようですので、ご報告ください。"
 
-#: camptix.php:2288
+#: camptix.php:2309
 msgid "Revenue report generated in %s seconds."
 msgstr "収入レポートを%s秒で生成しました。"
 
-#: camptix.php:2402 camptix.php:2411
+#: camptix.php:2423 camptix.php:2432
 msgid "Sold"
 msgstr "販売"
 
-#: camptix.php:2404 camptix.php:2413
+#: camptix.php:2425 camptix.php:2434
 msgid "Sub-Total"
 msgstr "小計"
 
-#: camptix.php:2405 camptix.php:2414
+#: camptix.php:2426 camptix.php:2435
 msgid "Discounted"
 msgstr "割引済"
 
-#: camptix.php:2446
+#: camptix.php:2467
 msgid "Export all attendees data to"
 msgstr "全参加者データをエクスポート"
 
-#: camptix.php:2451
+#: camptix.php:2472
 msgid "(coming soon)"
 msgstr "(後日公開予定)"
 
-#: camptix.php:2480
+#: camptix.php:2501
 msgid "Format not supported."
 msgstr "対応していない形式です。"
 
-#: camptix.php:2510
+#: camptix.php:2531
 msgid "Attendee ID"
 msgstr "参加者 ID"
 
-#: camptix.php:2511
+#: camptix.php:2532
 msgid "Ticket Type"
 msgstr "チケットの種類"
 
-#: camptix.php:2514
+#: camptix.php:2535
 msgid "E-mail Address"
 msgstr "メールアドレス"
 
-#: camptix.php:2516 camptix.php:2821 camptix.php:3770
+#: camptix.php:2537 camptix.php:2842 camptix.php:3791
 msgid "Status"
 msgstr "ステータス"
 
-#: camptix.php:2517 camptix.php:3786
+#: camptix.php:2538 camptix.php:3807
 msgid "Transaction ID"
 msgstr "取引 ID"
 
-#: camptix.php:2639
+#: camptix.php:2660
 msgid "Please enter a subject line."
 msgstr "件名を入力してください。"
 
-#: camptix.php:2642
+#: camptix.php:2663
 msgid "Please enter the e-mail body."
 msgstr "メール本文を入力してください。"
 
-#: camptix.php:2645
+#: camptix.php:2666
 msgid "Please select at least one ticket group."
 msgstr "1つ以上のチケットグループを選択してください。"
 
-#: camptix.php:2689
+#: camptix.php:2710
 msgid "Your e-mail job has been queued for %s recipients."
 msgstr "%s人へのメール送信をキューに追加しました。"
 
-#: camptix.php:2723
+#: camptix.php:2744
 msgid "To"
 msgstr "宛先"
 
-#: camptix.php:2738 camptix.php:2818
+#: camptix.php:2759 camptix.php:2839
 msgid "Subject"
 msgstr "件名"
 
-#: camptix.php:2744
+#: camptix.php:2765
 msgid "Message"
 msgstr "メッセージ"
 
-#: camptix.php:2748
+#: camptix.php:2769
 msgid "You can use the following shortcodes:"
 msgstr "以下のショートコードをご利用ください:"
 
-#: camptix.php:2792 camptix.php:2795
+#: camptix.php:2813 camptix.php:2816
 msgid "Preview"
 msgstr "プレビュー"
 
-#: camptix.php:2794
+#: camptix.php:2815
 msgid "Send E-mails"
 msgstr "メールを送信"
 
-#: camptix.php:2813
+#: camptix.php:2834
 msgid "History"
 msgstr "履歴"
 
-#: camptix.php:2819
+#: camptix.php:2840
 msgid "Updated"
 msgstr "更新しました"
 
-#: camptix.php:2819
+#: camptix.php:2840
 msgid "%1$s at %2$s"
 msgstr "%1$s%2$s"
 
-#: camptix.php:2820
+#: camptix.php:2841
 msgid "Author"
 msgstr "投稿者"
 
-#: camptix.php:2843 camptix.php:2845
+#: camptix.php:2864 camptix.php:2866
 msgid "Refund all transactions"
 msgstr "すべての取引を返金"
 
-#: camptix.php:2846
+#: camptix.php:2867
 msgid "Seriously, refund them all"
 msgstr "はい、全員へ返金を行います"
 
-#: camptix.php:2847
+#: camptix.php:2868
 msgid "I know what I'm doing, please refund"
 msgstr "操作内容を十分に理解しています。返金処理を行います。"
 
-#: camptix.php:2848
+#: camptix.php:2869
 msgid "I know this may result in money loss, refund anyway"
 msgstr "実行すると費用がかかることを承諾し、返金処理を行います。"
 
-#: camptix.php:2849
+#: camptix.php:2870
 msgid "I will not blame Konstantin if something goes wrong"
 msgstr "もし何かうまくいかなかった場合でも Konstantin のせいにはしません !"
 
-#: camptix.php:2857
+#: camptix.php:2878
 msgid "Refund Transactions"
 msgstr "返金処理"
 
-#: camptix.php:2877
+#: camptix.php:2898
 msgid ""
 "CampTix has finished attempting to refund all transactions. The results were:"
 "<br /><br /> &bull;Succeeded: %s<br /> &bull;Failed: %s"
@@ -1096,15 +1096,15 @@ msgstr ""
 "CampTix による全額返金の試行が完了しました。結果は以下の通りです。<br /><br /"
 "> &bull;成功: %s<br /> &bull;失敗: %s"
 
-#: camptix.php:2902
+#: camptix.php:2923
 msgid "Looks like you have missed a checkbox or two. Try again!"
 msgstr "記入漏れのチェックボックスがあるようです。もう一度お試しください。"
 
-#: camptix.php:2933
+#: camptix.php:2954
 msgid "A refund job has been queued for %d attendees."
 msgstr "%s人への返金処理をキューに追加しました。"
 
-#: camptix.php:2956
+#: camptix.php:2977
 msgid ""
 "A refund job is in progress, with %d attendees left in the queue. Next run "
 "in %d seconds."
@@ -1112,138 +1112,138 @@ msgstr ""
 "返金処理を実行中です。現在%d人の参加者がキューに含まれています。あと%d秒で次"
 "の処理を実行します。"
 
-#: camptix.php:2988
+#: camptix.php:3009
 msgid "None of the enabled payment modules support refunding all tickets."
 msgstr "全チケットの返金に対応している有効化中の決済モジュールがありません。"
 
-#: camptix.php:3118
+#: camptix.php:3139
 msgid "Ticket Options"
 msgstr "チケット設定"
 
-#: camptix.php:3123
+#: camptix.php:3144
 msgid "Reservations"
 msgstr "予約"
 
-#: camptix.php:3125
+#: camptix.php:3146
 msgid "Coupon Options"
 msgstr "クーポン設定"
 
-#: camptix.php:3128 camptix.php:5050
+#: camptix.php:3149 camptix.php:5074
 msgid "Attendee Information"
 msgstr "参加者情報"
 
-#: camptix.php:3130
+#: camptix.php:3151
 msgid "Publish"
 msgstr "公開"
 
-#: camptix.php:3149
+#: camptix.php:3170
 msgid "Save"
 msgstr "保存"
 
-#: camptix.php:3160
+#: camptix.php:3181
 msgid "Status:"
 msgstr "ステータス:"
 
-#: camptix.php:3165
+#: camptix.php:3186
 msgid "Unknown status"
 msgstr "不明なステータス"
 
-#: camptix.php:3171
+#: camptix.php:3192
 msgid "M j, Y @ G:i"
 msgstr "Y年n月j日G:i"
 
-#: camptix.php:3173
+#: camptix.php:3194
 msgid "Created: <b>%1$s</b>"
 msgstr "作成しました: <b>%1$s</b>"
 
-#: camptix.php:3176
+#: camptix.php:3197
 msgid "Publish <b>immediately</b>"
 msgstr "<b>すぐに</b>公開する"
 
-#: camptix.php:3192
+#: camptix.php:3213
 msgid "Edit Attendee Info"
 msgstr "参加者情報を編集"
 
-#: camptix.php:3197
+#: camptix.php:3218
 msgid "Hide from public attendees list"
 msgstr "参加者の公開一覧で非表示にする"
 
-#: camptix.php:3209
+#: camptix.php:3230
 msgid "Delete Permanently"
 msgstr "完全に削除する"
 
-#: camptix.php:3211
+#: camptix.php:3232
 msgid "Move to Trash"
 msgstr "ゴミ箱へ移動"
 
-#: camptix.php:3218
+#: camptix.php:3239
 msgid "Save Attendee"
 msgstr "参加者を保存"
 
-#: camptix.php:3239
+#: camptix.php:3260
 msgid "Price:"
 msgstr "価格:"
 
-#: camptix.php:3244
+#: camptix.php:3265
 msgid ""
 "You can not change the price because one or more tickets have already been "
 "purchased."
 msgstr "すでに購入済みのチケットがあるため、価格を変更できません。"
 
-#: camptix.php:3248 camptix.php:3703
+#: camptix.php:3269 camptix.php:3724
 msgid "Quantity:"
 msgstr "数:"
 
-#: camptix.php:3251
+#: camptix.php:3272
 msgid ""
 "You can not set the quantity to less than the number of purchased tickets."
 msgstr "購入済みのチケット数より少ない数を指定することはできません。"
 
-#: camptix.php:3266 camptix.php:3740
+#: camptix.php:3287 camptix.php:3761
 msgid "Leave blank for auto-availability"
 msgstr "発売期間を自動設定するにはこの欄を空にしてください"
 
-#: camptix.php:3269 camptix.php:3743
+#: camptix.php:3290 camptix.php:3764
 msgid "Start:"
 msgstr "開始:"
 
-#: camptix.php:3273 camptix.php:3747
+#: camptix.php:3294 camptix.php:3768
 msgid "End:"
 msgstr "終了:"
 
-#: camptix.php:3374
+#: camptix.php:3395
 msgid "Name"
 msgstr "名前"
 
-#: camptix.php:3377
+#: camptix.php:3398
 msgid "Token"
 msgstr "トークン"
 
-#: camptix.php:3378
+#: camptix.php:3399
 msgid "Actions"
 msgstr "操作"
 
-#: camptix.php:3389
+#: camptix.php:3410
 msgid "Release"
 msgstr "リリース"
 
-#: camptix.php:3390
+#: camptix.php:3411
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: camptix.php:3399
+#: camptix.php:3420
 msgid "Create a New Reservation:"
 msgstr "予約を新規作成:"
 
-#: camptix.php:3402
+#: camptix.php:3423
 msgid "Reservation Name"
 msgstr "予約名"
 
-#: camptix.php:3406
+#: camptix.php:3427
 msgid "Create Reservation"
 msgstr "予約を作成"
 
-#: camptix.php:3408
+#: camptix.php:3429
 msgid ""
 "If you create a reservation with more quantity than available by the total "
 "ticket quantity, we'll bump the ticket quantity for you."
@@ -1251,111 +1251,111 @@ msgstr ""
 "購入可能なチケット数よりも多い予約数を作成すると、合計のチケット数が自動的に"
 "増加されます。"
 
-#: camptix.php:3418
+#: camptix.php:3439
 msgid "Text input"
 msgstr "テキスト欄"
 
-#: camptix.php:3419
+#: camptix.php:3440
 msgid "Text area"
 msgstr "テキスト欄"
 
-#: camptix.php:3420
+#: camptix.php:3441
 msgid "Dropdown select"
 msgstr "ドロップダウン選択肢"
 
-#: camptix.php:3421
+#: camptix.php:3442
 msgid "Radio select"
 msgstr "ラジオボタン選択肢"
 
-#: camptix.php:3422
+#: camptix.php:3443
 msgid "Checkbox"
 msgstr "チェックボックス"
 
-#: camptix.php:3510
+#: camptix.php:3531
 msgid "Default"
 msgstr "デフォルト"
 
-#: camptix.php:3513
+#: camptix.php:3534
 msgid "First name, last name and e-mail address"
 msgstr "名前とメールアドレス"
 
-#: camptix.php:3527
+#: camptix.php:3548
 msgid "Add a %1$s or an %2$s."
 msgstr "%1$sまたは%2$sを追加する。"
 
-#: camptix.php:3528
+#: camptix.php:3549
 msgid "new question"
 msgstr "新規質問"
 
-#: camptix.php:3529
+#: camptix.php:3550
 msgid "existing one"
 msgstr "既存のもの"
 
-#: camptix.php:3540
+#: camptix.php:3561
 msgid "Add a new question:"
 msgstr "新規質問を追加"
 
-#: camptix.php:3545
+#: camptix.php:3566
 msgid "Type"
 msgstr "種類"
 
-#: camptix.php:3565
+#: camptix.php:3586
 msgid "Values"
 msgstr "値"
 
-#: camptix.php:3569
+#: camptix.php:3590
 msgid "Separate multiple values with a comma."
 msgstr "複数の値を入力したい場合は半角コンマで区切ってください。"
 
-#: camptix.php:3574
+#: camptix.php:3595
 msgid "Required"
 msgstr "必須"
 
-#: camptix.php:3577
+#: camptix.php:3598
 msgid "This field is required"
 msgstr "入力必須欄です"
 
-#: camptix.php:3582
+#: camptix.php:3603
 msgid "Add Question"
 msgstr "質問を追加"
 
-#: camptix.php:3583 camptix.php:3620
+#: camptix.php:3604 camptix.php:3641
 msgid "Close"
 msgstr "閉じる"
 
-#: camptix.php:3584 camptix.php:3621
+#: camptix.php:3605 camptix.php:3642
 msgid "Do not forget to update the ticket post to save changes."
 msgstr "チケット投稿を更新し、保存を変更してください。"
 
-#: camptix.php:3590
+#: camptix.php:3611
 msgid "Add an existing question:"
 msgstr "既存の質問を追加:"
 
-#: camptix.php:3594
+#: camptix.php:3615
 msgid "Available Questions"
 msgstr "利用できる質問"
 
-#: camptix.php:3619
+#: camptix.php:3640
 msgid "Add Selected"
 msgstr "選択したものを追加"
 
-#: camptix.php:3631
+#: camptix.php:3652
 msgid "Move"
 msgstr "移動"
 
-#: camptix.php:3632
+#: camptix.php:3653
 msgid "Edit"
 msgstr "編集"
 
-#: camptix.php:3633
+#: camptix.php:3654
 msgid "Remove"
 msgstr "削除"
 
-#: camptix.php:3686
+#: camptix.php:3707
 msgid "Discount:"
 msgstr "割引:"
 
-#: camptix.php:3699
+#: camptix.php:3720
 msgid ""
 "You can not change the discount because one or more tickets have already "
 "been purchased using this coupon."
@@ -1363,66 +1363,66 @@ msgstr ""
 "このクーポンを使用して購入済みのチケットがすでにあるため、割引額を変更するこ"
 "とはできません。"
 
-#: camptix.php:3706
+#: camptix.php:3727
 msgid "The quantity can not be less than the number of coupons already used."
 msgstr "使用済みのクーポン数よりも少ない数を設定することはできません。"
 
-#: camptix.php:3710
+#: camptix.php:3731
 msgid "Applies to:"
 msgstr "適用先:"
 
-#: camptix.php:3712
+#: camptix.php:3733
 msgid "All"
 msgstr "すべて"
 
-#: camptix.php:3775
+#: camptix.php:3796
 msgid "Edit Token"
 msgstr "トークンを編集"
 
-#: camptix.php:3776
+#: camptix.php:3797
 msgid "Access Token"
 msgstr "アクセストークン"
 
-#: camptix.php:3779
+#: camptix.php:3800
 msgid "Transaction"
 msgstr "取引"
 
-#: camptix.php:4221
+#: camptix.php:4245
 msgid "Discounted %s"
 msgstr "割引%s"
 
-#: camptix.php:4224
+#: camptix.php:4248
 msgid "Discounted %s%%"
 msgstr "割引%s%%"
 
-#: camptix.php:4374
+#: camptix.php:4398
 msgid "An error has occurred."
 msgstr "エラーが発生しました。"
 
-#: camptix.php:4391
+#: camptix.php:4415
 msgid "Sorry, but the coupon you have entered seems to be invalid or expired."
 msgstr "入力されたクーポンは無効または期限切れのようです。"
 
-#: camptix.php:4394
+#: camptix.php:4418
 msgid ""
 "Sorry, but the reservation you are trying to use seems to be invalid or "
 "expired."
 msgstr "ご利用されようとしている予約コードは無効または期限切れのようです。"
 
-#: camptix.php:4397
+#: camptix.php:4421
 msgid ""
 "Sorry, but there are currently no tickets for sale. Please try again later."
 msgstr "現在販売中のチケットはありません。後ほどもう一度お試しください。"
 
-#: camptix.php:4400
+#: camptix.php:4424
 msgid "You are using a reservation, cool!"
 msgstr "予約機能をご利用中です。"
 
-#: camptix.php:4404
+#: camptix.php:4428
 msgid "Please select at least one ticket."
 msgstr "1枚以上のチケットを選択してください。"
 
-#: camptix.php:4407
+#: camptix.php:4431
 msgid ""
 "It looks like somebody took that last ticket before you, sorry! You try a "
 "different ticket."
@@ -1430,16 +1430,16 @@ msgstr ""
 "最後のチケットを他の方が購入してしまったようです。別のチケットをお試しくださ"
 "い。"
 
-#: camptix.php:4410
+#: camptix.php:4434
 msgid "Payment methods have not been configured yet. Please try again later."
 msgstr "決済方法がまだ設定されていません。後ほどもう一度お試しください。"
 
-#: camptix.php:4418
+#: camptix.php:4442
 msgid ""
-"An error has occured and your payment has failed. Please try again later."
-msgstr "エラーが発生し、決済に失敗しました。後ほどもう一度お試しください。"
+"An error has occurred and your payment has failed. Please try again later."
+msgstr "エラーが発生したため決済に失敗しました。後ほどもう一度お試しください。"
 
-#: camptix.php:4422
+#: camptix.php:4446
 msgid ""
 "It looks like somebody grabbed those tickets before you could complete the "
 "purchase. You have not been charged, please try again."
@@ -1447,7 +1447,7 @@ msgstr ""
 "決済が完了する前に他の方がチケットを取得してしまったようです。まだ課金はされ"
 "ていませんので、もう一度お試しください。"
 
-#: camptix.php:4425
+#: camptix.php:4449
 msgid ""
 "It looks like somebody has used the coupon before you could complete your "
 "purchase. You have not been charged, please try again."
@@ -1455,7 +1455,7 @@ msgstr ""
 "決済が完了する前に他の方がクーポンを使用してしまったようです。まだ課金はされ"
 "ていませんので、もう一度お試しください。"
 
-#: camptix.php:4428
+#: camptix.php:4452
 msgid ""
 "It looks like the coupon you are trying to use has expired before you could "
 "complete your purchase. You have not been charged, please try again."
@@ -1463,19 +1463,19 @@ msgstr ""
 "決済が完了する前にクーポンが期限切れになってしまったようです。まだ課金はされ"
 "ていませんので、もう一度お試しください。"
 
-#: camptix.php:4431
+#: camptix.php:4455
 msgid "Your access token does not seem to be valid."
 msgstr "アクセストークンが無効なようです。"
 
-#: camptix.php:4434
+#: camptix.php:4458
 msgid "Your payment has been cancelled. Feel free to try again!"
 msgstr "決済をキャンセルしました。必要な場合は、もう一度お試しください。"
 
-#: camptix.php:4437
+#: camptix.php:4461
 msgid "The edit link you are trying to use is either invalid or has expired."
 msgstr "ご利用されようとしている編集リンクは無効か、期限が切れています。"
 
-#: camptix.php:4440
+#: camptix.php:4464
 msgid ""
 "Your refund request can not be processed. Please try again later or contact "
 "support."
@@ -1483,40 +1483,40 @@ msgstr ""
 "返金リクエストの処理できませんでした。後ほどもう一度お試しいただくか、サポー"
 "トにご連絡ください。"
 
-#: camptix.php:4443
+#: camptix.php:4467
 msgid ""
 "Sorry, but the reservation you are trying to use has been cancelled or has "
 "expired."
 msgstr ""
 "ご利用されようとした予約チケットはキャンセル済みまたは期限が切れています。"
 
-#: camptix.php:4460 camptix.php:4639
+#: camptix.php:4484 camptix.php:4663
 msgid "Description"
 msgstr "説明"
 
-#: camptix.php:4534 camptix.php:4682
+#: camptix.php:4558 camptix.php:4706
 msgid "Coupon Applied: <strong>%s</strong>, %s discount"
 msgstr "適用クーポン: <strong>%s</strong> (%s 割引)"
 
-#: camptix.php:4536
+#: camptix.php:4560
 msgid "Click here to enter a coupon code"
 msgstr "ここをクリックしてクーポンコードを入力"
 
-#: camptix.php:4539
+#: camptix.php:4563
 msgid "Apply Coupon"
 msgstr "クーポンを適用"
 
-#: camptix.php:4559
+#: camptix.php:4583
 msgid "Register &rarr;"
 msgstr "登録 &rarr;"
 
-#: camptix.php:4586
+#: camptix.php:4610
 msgid ""
 "It looks like you have chosen more tickets than we have left! We have "
 "stripped the extra ones."
 msgstr "チケット残数よりも多い数を指定されたようです。不足分を削除しました。"
 
-#: camptix.php:4588
+#: camptix.php:4612
 msgid ""
 "It looks like somebody purchased a ticket before you could finish your "
 "purchase. Please review your order and try again."
@@ -1524,7 +1524,7 @@ msgstr ""
 "決済が完了する前に他の方がチケットを購入してしまったようです。注文を確認し、"
 "もう一度お試しください。"
 
-#: camptix.php:4592
+#: camptix.php:4616
 msgid ""
 "You have exceeded the coupon limits, so we have stripped down the extra "
 "tickets."
@@ -1532,7 +1532,7 @@ msgstr ""
 "クーポンの上限に達しました。クーポンが不足している分のチケットを削除していま"
 "す。"
 
-#: camptix.php:4594
+#: camptix.php:4618
 msgid ""
 "It looks like somebody used the same coupon before you could finish your "
 "purchase. Please review your order and try again."
@@ -1540,19 +1540,19 @@ msgstr ""
 "購入を完了する前に他の方が同じクーポンを使用してしまったようです。注文内容を"
 "確認しもう一度お試しください。"
 
-#: camptix.php:4597 camptix.php:5002 camptix.php:5018
+#: camptix.php:4621 camptix.php:5026 camptix.php:5042
 msgid "Please fill in all required fields."
 msgstr "必須項目に記入してください。"
 
-#: camptix.php:4600
+#: camptix.php:4624
 msgid "The e-mail address you have entered seems to be invalid."
 msgstr "入力されたメールアドレスが間違っているようです。"
 
-#: camptix.php:4603
+#: camptix.php:4627
 msgid "The chosen receipt e-mail address is either empty or invalid."
 msgstr "レシート送信先のメールアドレスが空または不正です。"
 
-#: camptix.php:4606
+#: camptix.php:4630
 msgid ""
 "A payment error has occurred, looks like chosen payment method is not "
 "responding. Please try again later."
@@ -1560,131 +1560,131 @@ msgstr ""
 "決済エラーが発生しました。決済方法で選択したシステムが応答していません。後ほ"
 "どもう一度お試しください。"
 
-#: camptix.php:4609
+#: camptix.php:4633
 msgid "You have selected an invalid payment method. Please try again."
 msgstr "無効な決済方法が選択されています。もう一度お試しください。"
 
-#: camptix.php:4612
+#: camptix.php:4636
 msgid "Looks like you're trying to use an invalid or expired coupon."
 msgstr "無効または期限切れのクーポンをお使いのようです。"
 
-#: camptix.php:4635
+#: camptix.php:4659
 msgid "Order Summary"
 msgstr "注文サマリー"
 
-#: camptix.php:4640
+#: camptix.php:4664
 msgid "Per Ticket"
 msgstr "チケットあたり"
 
-#: camptix.php:4690
+#: camptix.php:4714
 msgid "Registration Information"
 msgstr "登録情報"
 
-#: camptix.php:4726
+#: camptix.php:4750
 msgid "Send the receipt to this address"
 msgstr "レシートをこのアドレスへ送信"
 
-#: camptix.php:4765
+#: camptix.php:4789
 msgid "Receipt"
 msgstr "レシート"
 
-#: camptix.php:4768
+#: camptix.php:4792
 msgid "E-mail the receipt to"
 msgstr "レシートのメール先:"
 
-#: camptix.php:4786
+#: camptix.php:4810
 msgid "Checkout &rarr;"
 msgstr "チェックアウト &rarr;"
 
-#: camptix.php:4788
+#: camptix.php:4812
 msgid "Claim Tickets &rarr;"
 msgstr "チケットを入手 &rarr;"
 
-#: camptix.php:4843
+#: camptix.php:4867
 msgid "Please note that the payment for this set of tickets is still pending."
 msgstr "これらのチケットの決済はまだ保留中ですのでご注意ください。"
 
-#: camptix.php:4850
+#: camptix.php:4874
 msgid "Tickets Summary"
 msgstr "チケットの概要"
 
-#: camptix.php:4851
+#: camptix.php:4875
 msgid "Purchase Date"
 msgstr "購入日"
 
-#: camptix.php:4906
+#: camptix.php:4930
 msgid "Edit information"
 msgstr "情報を編集"
 
-#: camptix.php:4923
+#: camptix.php:4947
 msgid "Change of plans? Made a mistake? Don't worry, you can %s."
 msgstr "気が変わった場合や間違ってしまった場合は%sできます。"
 
-#: camptix.php:4923
+#: camptix.php:4947
 msgid "request a refund"
 msgstr "返金をリクエスト"
 
-#: camptix.php:4968
+#: camptix.php:4992
 msgid "This attendee is not published."
 msgstr "この参加者は公開されていません。"
 
-#: camptix.php:4982
+#: camptix.php:5006
 msgid "Please note that the payment for this ticket is still pending."
 msgstr "このチケットの決済はまだ保留中ですのでご注意ください。"
 
-#: camptix.php:5005
+#: camptix.php:5029
 msgid "You have entered an invalid e-mail, please try again."
 msgstr "記入されたメールが正しくないようです。もう一度お試しください。"
 
-#: camptix.php:5023
+#: camptix.php:5047
 msgid "Your information has not been changed!"
 msgstr "情報が変更されていません。"
 
-#: camptix.php:5038
+#: camptix.php:5062
 msgid "Your information has been saved!"
 msgstr "情報を保存しました。"
 
-#: camptix.php:5091
+#: camptix.php:5115
 msgid "Save Attendee Information"
 msgstr "参加者情報を保存"
 
-#: camptix.php:5188
+#: camptix.php:5212
 msgid "You have to agree to the terms to request a refund."
 msgstr "返金をリクエストするには条件に合意する必要があります。"
 
-#: camptix.php:5213
+#: camptix.php:5237
 msgid "Your tickets have been successfully refunded."
 msgstr "チケットを返金しました。"
 
-#: camptix.php:5216
+#: camptix.php:5240
 msgid "Can not refund the transaction at this time. Please try again later."
 msgstr "現在返金処理を行うことができません。後ほどもう一度お試しください。"
 
-#: camptix.php:5228
+#: camptix.php:5252
 msgid "Refund Request"
 msgstr "返金リクエスト"
 
-#: camptix.php:5233
+#: camptix.php:5257
 msgid "Request Details"
 msgstr "リクエストの詳細"
 
-#: camptix.php:5241
+#: camptix.php:5265
 msgid "Original Payment"
 msgstr "元の決済額"
 
-#: camptix.php:5245
+#: camptix.php:5269
 msgid "Purchased Tickets"
 msgstr "購入済チケット"
 
-#: camptix.php:5253
+#: camptix.php:5277
 msgid "Refund Amount"
 msgstr "返金額"
 
-#: camptix.php:5257
+#: camptix.php:5281
 msgid "Refund Reason"
 msgstr "返金理由"
 
-#: camptix.php:5263
+#: camptix.php:5287
 msgid ""
 "Refunds can take up to several days to process. All of the tickets you "
 "purchased in the original transaction will be cancelled. We are not able to "
@@ -1695,60 +1695,60 @@ msgstr ""
 "キャンセルされます。部分的な返金や、購入者以外の方への返金はできません。返金"
 "をリクエストする前に以下の条件に合意してください。"
 
-#: camptix.php:5265
+#: camptix.php:5289
 msgid "I agree to the above terms"
 msgstr "上記の条件に同意します"
 
-#: camptix.php:5266
+#: camptix.php:5290
 msgid "Send Request"
 msgstr "リクエストを送信"
 
-#: camptix.php:6310
+#: camptix.php:6336
 msgid "Coupon used: %s"
 msgstr "使用済クーポン: %s"
 
-#: camptix.php:6312
+#: camptix.php:6338
 msgid "Total: %s"
 msgstr "合計: %s"
 
-#: camptix.php:6313
+#: camptix.php:6339
 msgid "Let us know if you have any questions!"
 msgstr "ご不明な点がありましたらお知らせください。"
 
-#: camptix.php:6334 camptix.php:6392
+#: camptix.php:6360 camptix.php:6418
 msgid "Your Ticket to %s"
 msgstr "%s のチケット"
 
-#: camptix.php:6354 camptix.php:6433
+#: camptix.php:6380 camptix.php:6459
 msgid "Your Refund for %s"
 msgstr "%s の返金"
 
-#: camptix.php:6386
+#: camptix.php:6412
 msgid ""
 "Your payment status is: %s. You will receive a notification e-mail once your "
 "payment is completed."
 msgstr "現在の決済状態は%sです。決済が完了次第、通知メールを送信します。"
 
-#: camptix.php:6403
+#: camptix.php:6429
 msgid "Your Tickets to %s"
 msgstr "%s のチケット"
 
-#: camptix.php:6415 camptix.php:6424
+#: camptix.php:6441 camptix.php:6450
 msgid "Your Payment for %s"
 msgstr "%s の返金"
 
-#: camptix.php:6552
+#: camptix.php:6578
 msgid ""
 "CampTix is in <strong>archive mode</strong>. Please do not make any changes."
 msgstr ""
 "CampTix が<strong>アーカイブモード</strong>に設定されています。変更を加えない"
 "でください。"
 
-#: camptix.php:6671
+#: camptix.php:6711
 msgid "Please register your CampTix addons before CampTix is initialized."
 msgstr "初期化の前に CampTix アドオンを登録してください。"
 
-#: camptix.php:6676
+#: camptix.php:6716
 msgid "The CampTix addon you are trying to register does not exist."
 msgstr "登録しようとしている CampTix アドオンは存在しません。"
 
@@ -1768,9 +1768,7 @@ msgstr "%sはこの決済方法に対応していません。"
 msgid "CampTix Event Ticketing"
 msgstr "CampTix イベントチケットシステム"
 
-#. #-#-#-#-#  camptix.pot (CampTix Event Ticketing 1.4)  #-#-#-#-#
 #. Plugin URI of the plugin/theme
-#. #-#-#-#-#  camptix.pot (CampTix Event Ticketing 1.4)  #-#-#-#-#
 #. Author URI of the plugin/theme
 msgid "http://wordcamp.org"
 msgstr "http://wordcamp.org"
